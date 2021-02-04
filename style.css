@@ -1,0 +1,27 @@
+button {
+	background-color: transparent;
+	color: #0c5bba;
+	border-radius: 28px;
+	border: 1px solid #0c5bba;
+	display: inline-block;
+	cursor: pointer;
+	font-family: Arial;
+	font-size: 17px;
+	padding: 7px 23px;
+}
+
+.grey-button {
+	color: rgb(52, 52, 52);
+	border: 1px solid #ffffff;
+}
+
+h2 {
+	color: #0c5bba;
+}
+
+.box {
+	background-color: #0d5bba;
+	color: white;
+	padding: 0 4px 0 4px;
+	border-radius: 4px;
+}
