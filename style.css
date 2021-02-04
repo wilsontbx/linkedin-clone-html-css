@@ -1,3 +1,9 @@
+nav {
+	background-color: #ffffff !important;
+}
+.logo {
+	max-width: 800px;
+}
 button {
 	background-color: transparent;
 	color: #0c5bba;
@@ -24,4 +30,29 @@ h2 {
 	color: white;
 	padding: 0 4px 0 4px;
 	border-radius: 4px;
+	margin: 3px;
+}
+
+.form-section {
+	width: 600px;
+}
+form {
+	max-width: 400px;
+}
+
+input {
+	width: 400px;
+	padding: 10px;
+}
+
+.full-button {
+	width: 400px;
+	background-color: #0d5bba;
+	color: white;
+	padding: 15px;
+}
+
+a:hover {
+	color: blue;
+	cursor: pointer;
 }
