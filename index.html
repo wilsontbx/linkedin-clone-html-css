@@ -1,66 +1,116 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <!-- Required meta tags -->
-        <meta charset="utf-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-        <!-- Bootstrap CSS -->
-        <link
-            href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css"
-            rel="stylesheet"
-            integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1"
-            crossorigin="anonymous"
-        />
-        <link rel="stylesheet" href="style.css" />
-        <title>Linkedin-clone</title>
-    </head>
-    <body>
-        <div class="container-lg">
-            <nav class="navbar navbar-expand-lg navbar-light bg-light">
-                <div class="container-fluid">
-                    <a class="navbar-brand" href="/"
-                        ><h2>Linked<span class="box">in</span></h2></a
-                    >
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1"
+      crossorigin="anonymous"
+    />
 
-                    <div
-                        class="collapse navbar-collapse"
-                        id="navbarSupportedContent"
-                    >
-                        <div class="navbar-nav me-auto mb-2 mb-lg-0"></div>
-                        <form class="d-flex">
-                            <button class="grey-button">
-                                Join with resume
-                            </button>
-                            <div class="grey-line"></div>
-                            <button class="grey-button">Join now</button>
-                            <button>Sign in</button>
-                        </form>
-                    </div>
-                </div>
-            </nav>
-            <div class="d-flex align-items-start">
-                <div class="form-section">
-                    <h1>Welcome to your professional community</h1>
-                    <form>
-                        <div class="mb-2">
-                            <input placeholder="Email or phone number" />
-                        </div>
-                        <div class="mb-3">
-                            <input placeholder="Password" />
-                        </div>
-                        <div class="mb-4"><a>Forgot password?</a></div>
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap"
+      rel="stylesheet"
+    />
 
-                        <button class="full-button">Sign in</button>
-                    </form>
-                </div>
-                <img class="logo" src="./image/homepage.svg" />
-            </div>
+    <link rel="stylesheet" href="style.css" />
+    <title>Linkedin-clone</title>
+  </head>
+  <body>
+    <div class="container-lg">
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="/"
+            ><h2>Linked<span class="box">in</span></h2></a
+          >
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <div class="navbar-nav me-auto mb-2 mb-lg-0"></div>
+            <form class="d-flex">
+              <button class="grey-button">Join with resume</button>
+              <div class="grey-line"></div>
+              <button class="grey-button">Join now</button>
+              <button>Sign in</button>
+            </form>
+          </div>
         </div>
-        <script
-            src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
-            integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
-            crossorigin="anonymous"
-        ></script>
-    </body>
+      </nav>
+      <section class="flex-container">
+        <div class="form-section mobile-container">
+          <p class="font-section font-large">
+            Welcome to your professional community
+          </p>
+          <form>
+            <div class="mb-2">
+              <input placeholder="Email or phone number" />
+            </div>
+            <div class="mb-3">
+              <input placeholder="Password" />
+            </div>
+            <div class="mb-4"><a>Forgot password?</a></div>
+
+            <button class="full-button">Sign in</button>
+          </form>
+        </div>
+
+        <img class="logo" src="./image/homepage.svg" />
+      </section>
+      <section class="flex-container">
+        <div class="tag-first">
+          <p class="font-section font-medium">Find open jobs and internships</p>
+        </div>
+        <div class="tag-second"></div>
+        <div class="tag-third">
+          <h6 class="suggested">SUGGESTED SEARCHES</h6>
+          <div class="tag-suggest">
+            <button class="grey-suggestion">Engineering</button>
+            <button class="grey-suggestion">Business Development</button>
+            <button class="grey-suggestion">Finance</button>
+            <button class="grey-suggestion">Administrative Assistant</button>
+            <button class="grey-suggestion">Retail Associate</button>
+            <button class="grey-suggestion">Customer Service</button>
+            <button class="grey-suggestion">Operations</button>
+            <button class="grey-suggestion">Information Technology</button>
+            <button class="grey-suggestion">Marketing</button>
+            <button class="grey-suggestion">Human Resources</button>
+            <button class="grey-suggestion">Healthcare Service</button>
+            <button class="grey-suggestion">Sales</button>
+            <button class="grey-suggestion">
+              Program and Project Management
+            </button>
+            <button class="grey-suggestion">Accounting</button>
+            <button class="grey-suggestion">Arts and Design</button>
+            <button class="grey-suggestion">
+              Community and Social Services
+            </button>
+            <button class="grey-suggestion">Consulting</button>
+            <button class="grey-suggestion">Education</button>
+            <button class="grey-suggestion">Entrepreneurship</button>
+            <button class="grey-suggestion">Legal</button>
+            <button class="grey-suggestion">Media and Communications</button>
+            <button class="grey-suggestion">
+              Military and Protective Services
+            </button>
+            <button class="grey-suggestion">Product Management</button>
+            <button class="grey-suggestion">Purchasing</button>
+            <button class="grey-suggestion">Quality Assurance</button>
+            <button class="grey-suggestion">Real Estate</button>
+            <button class="grey-suggestion">Research</button>
+            <button class="grey-suggestion">Support</button>
+            <button class="grey-suggestion">Administrative</button>
+          </div>
+        </div>
+      </section>
+    </div>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>

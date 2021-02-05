@@ -1,58 +1,127 @@
 nav {
-	background-color: #ffffff !important;
+  background-color: #ffffff !important;
+  margin-bottom: 20px;
 }
 .logo {
-	max-width: 800px;
+  max-width: 800px;
+}
+.font-section {
+  font-family: "Roboto", sans-serif;
+}
+
+.font-large {
+  font-size: 60px;
+  color: #0d5bba;
+}
+
+.font-medium {
+  font-size: 45px;
+}
+.suggested {
+  color: #666666;
+}
+
+.grey-line {
+  border-left: 2px solid #d8d8d8;
+  height: 20px;
+  margin: auto;
 }
 button {
-	background-color: transparent;
-	color: #0c5bba;
-	border-radius: 28px;
-	border: 1px solid #0c5bba;
-	display: inline-block;
-	cursor: pointer;
-	font-family: Arial;
-	font-size: 17px;
-	padding: 7px 23px;
+  background-color: transparent;
+  color: #0c5bba;
+  border-radius: 28px;
+  border: 1px solid #0c5bba;
+  display: inline-block;
+  cursor: pointer;
+  font-family: Arial;
+  font-size: 17px;
+  padding: 7px 23px;
 }
 
 .grey-button {
-	color: rgb(52, 52, 52);
-	border: 1px solid #ffffff;
+  color: rgb(52, 52, 52);
+  border: 1px solid #ffffff;
+  color: #666666;
+  padding: 7px 20px;
+}
+.grey-suggestion {
+  font-weight: bold;
+  color: #5c5c5b;
+  background-color: #e5e5e3;
+  border: 1px solid #e8e8e6;
+  margin: 5px;
+  padding: 13px 20px;
 }
 
 h2 {
-	color: #0c5bba;
+  color: #0c5bba;
 }
 
 .box {
-	background-color: #0d5bba;
-	color: white;
-	padding: 0 4px 0 4px;
-	border-radius: 4px;
-	margin: 3px;
+  background-color: #0d5bba;
+  color: white;
+  padding: 0 4px 0 4px;
+  border-radius: 4px;
+  margin: 3px;
 }
-
+.logo {
+  max-width: 650px;
+}
 .form-section {
-	width: 600px;
+  width: 2000px;
 }
 form {
-	max-width: 400px;
+  max-width: 400px;
 }
 
 input {
-	width: 400px;
-	padding: 10px;
+  width: 400px;
+  padding: 10px;
 }
 
 .full-button {
-	width: 400px;
-	background-color: #0d5bba;
-	color: white;
-	padding: 15px;
+  width: 400px;
+  background-color: #0d5bba;
+  color: white;
+  padding: 15px;
 }
 
 a:hover {
-	color: blue;
-	cursor: pointer;
+  color: blue;
+  cursor: pointer;
+}
+section {
+  margin-bottom: 50px;
+}
+.flex-container {
+  display: flex;
+}
+
+.tag-first {
+  width: 800px;
+}
+.tag-second {
+  width: 500px;
+}
+.tag-third {
+  width: 2000px;
+}
+
+.tag-suggest {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+@media only screen and (max-width: 768px) {
+  .mobile-container {
+    max-width: 30px;
+  }
+  .form-section {
+    display: inline;
+  }
+  .flex-container {
+    display: inline;
+  }
+  .tag-suggest {
+  }
 }
