@@ -2,13 +2,27 @@ nav {
   background-color: #ffffff !important;
   margin-bottom: 20px;
 }
-.logo {
+.big-logo {
   max-width: 800px;
+}
+.small-logo {
+  display: contents;
 }
 .font-section {
   font-family: "Roboto", sans-serif;
 }
-
+.container-pure {
+  padding-right: 250px;
+  padding-left: 250px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.container-pure-sec {
+  padding-right: 250px;
+  padding-left: 250px;
+  margin-right: auto;
+  margin-left: auto;
+}
 .font-large {
   font-size: 60px;
   color: #0d5bba;
@@ -57,6 +71,12 @@ h2 {
   color: #0c5bba;
 }
 
+p {
+  color: #0c5bba;
+  font-size: bold;
+  display: none;
+}
+
 .box {
   background-color: #0d5bba;
   color: white;
@@ -64,9 +84,7 @@ h2 {
   border-radius: 4px;
   margin: 3px;
 }
-.logo {
-  max-width: 650px;
-}
+
 .form-section {
   width: 2000px;
 }
@@ -98,7 +116,7 @@ section {
 }
 
 .tag-first {
-  width: 800px;
+  width: 950px;
 }
 .tag-second {
   width: 500px;
@@ -113,8 +131,20 @@ section {
 }
 
 @media only screen and (max-width: 768px) {
-  .mobile-container {
-    max-width: 30px;
+  .container-pure {
+    padding-right: 0;
+    padding-left: 250px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  .container-pure {
+    width: 500px;
+    justify-content: center;
+    padding-right: 50px;
+    padding-left: 50px;
+  }
+  .big-logo {
+    display: contents;
   }
   .form-section {
     display: inline;
@@ -122,6 +152,37 @@ section {
   .flex-container {
     display: inline;
   }
+  .small-logo {
+    display: block;
+    margin-top: 100px;
+  }
+  .font-large {
+    font-size: 40px;
+    color: #0d5bba;
+    font-weight: bold;
+  }
+
+  .font-medium {
+    font-size: 30px;
+    font-weight: bold;
+  }
   .tag-suggest {
+    max-width: 750px;
+  }
+  .container-pure-sec {
+    padding-right: 0;
+    padding-left: 0;
+    margin-right: 0;
+    margin-left: 0;
+  }
+
+  .mobile-btn {
+    padding: 2px 15px;
+  }
+  p {
+    display: contents;
+  }
+  h2 {
+    display: none;
   }
 }

@@ -23,23 +23,27 @@
     <title>Linkedin-clone</title>
   </head>
   <body>
-    <div class="container-lg">
-      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container-pure-sec">
+      <nav class="navbar navbar-expand navbar-light bg-light">
         <div class="container-fluid">
           <a class="navbar-brand" href="/"
             ><h2>Linked<span class="box">in</span></h2></a
+          ><a class="navbar-brand" href="/"
+            ><p>Linked<span class="box">in</span></p></a
           >
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <div class="navbar-nav me-auto mb-2 mb-lg-0"></div>
             <form class="d-flex">
-              <button class="grey-button">Join with resume</button>
+              <button class="grey-button mobile-btn">Join with resume</button>
               <div class="grey-line"></div>
-              <button class="grey-button">Join now</button>
-              <button>Sign in</button>
+              <button class="grey-button mobile-btn">Join now</button>
+              <button class="mobile-btn">Sign in</button>
             </form>
           </div>
         </div>
       </nav>
+    </div>
+    <div class="container-pure">
       <section class="flex-container">
         <div class="form-section mobile-container">
           <p class="font-section font-large">
@@ -58,8 +62,11 @@
           </form>
         </div>
 
-        <img class="logo" src="./image/homepage.svg" />
+        <img class="big-logo" src="./image/homepage.svg" />
+        <img class="small-logo" src="./image/homepagelogomobile.svg" />
       </section>
+    </div>
+    <div class="container-pure-sec">
       <section class="flex-container">
         <div class="tag-first">
           <p class="font-section font-medium">Find open jobs and internships</p>
